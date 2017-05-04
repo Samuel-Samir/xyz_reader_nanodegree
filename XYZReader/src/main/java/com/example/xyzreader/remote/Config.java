@@ -12,7 +12,7 @@ public class Config {
     static {
         URL url = null;
         try {
-            url = new URL("https://raw.githubusercontent.com/Protino/dump/master/Lego/data.json" );
+            url = new URL("https://raw.githubusercontent.com/TNTest/xyzreader/master/data.json");
         } catch (MalformedURLException ignored) {
             // TODO: throw a real error
             Log.e(TAG, "Please check your internet connection.");
