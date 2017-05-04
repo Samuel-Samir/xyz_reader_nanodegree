@@ -43,6 +43,7 @@ public class SelectionBuilder {
     private ArrayList<String> mSelectionArgs;
 
     public SelectionBuilder() {
+        mProjectionMap = new HashMap<>();
     }
 
     /**
