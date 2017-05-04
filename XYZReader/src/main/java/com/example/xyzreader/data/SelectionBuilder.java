@@ -1,24 +1,4 @@
-/*
- * Copyright (C) 2010 The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 
-/*
- * Modifications:
- * -Imported from AOSP frameworks/base/core/java/com/android/internal/content
- * -Changed package name
- */
 
 package com.example.xyzreader.data;
 
@@ -31,11 +11,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 
-/**
- * Helper for building selection clauses for {@link SQLiteDatabase}. Each
- * appended clause is combined using {@code AND}. This class is <em>not</em>
- * thread safe.
- */
+
 public class SelectionBuilder {
     private String mTable = null;
     private HashMap<String, String> mProjectionMap;
@@ -46,10 +22,7 @@ public class SelectionBuilder {
         mProjectionMap = new HashMap<>();
     }
 
-    /**
-     * Append the given selection clause to the internal state. Each clause is
-     * surrounded with parenthesis and combined using {@code AND}.
-     */
+
     public SelectionBuilder where(String selection, String... selectionArgs) {
         if (TextUtils.isEmpty(selection)) {
             if (selectionArgs != null && selectionArgs.length > 0) {

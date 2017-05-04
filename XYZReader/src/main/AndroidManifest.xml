@@ -37,7 +37,9 @@
         </activity>
 
         <service android:name=".data.UpdaterService"
-            android:exported="false" />
+            android:exported="false"
+            android:enabled="true"
+            />
 
         <provider android:name=".data.ItemsProvider"
             android:authorities="com.example.xyzreader"
