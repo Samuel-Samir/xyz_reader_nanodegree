@@ -1,3 +1,15 @@
 = XYZ Reader
 
 This repository stores the final project for the XYZ Reader project in Udacity's Android Nanodegree.
+
+![p1](https://user-images.githubusercontent.com/20879706/27352122-e9e45e26-55ff-11e7-8071-d76e2172bea5.png)
+
+
+![p2](https://user-images.githubusercontent.com/20879706/27352124-e9f173cc-55ff-11e7-872e-64c4564048e1.png)
+
+
+![p3](https://user-images.githubusercontent.com/20879706/27352123-e9eb83c2-55ff-11e7-9d4f-09dec4cccfee.png)
+
+
+![4](https://user-images.githubusercontent.com/20879706/27352125-e9f1d164-55ff-11e7-8d46-e19a8b17dd9a.png)
+
